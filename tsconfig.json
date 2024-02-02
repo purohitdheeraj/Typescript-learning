@@ -1,7 +1,9 @@
 {
 	"include": ["./src/**/*.ts"],
 	"compilerOptions": {
+		"rootDir": "./src",
 		"outDir": "./build",
 		"target": "es2020"
-	}
+	},
+	"exclude": ["node_modules"]
 }

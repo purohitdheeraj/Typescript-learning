@@ -37,3 +37,31 @@ let names: string[] = ['Krishna', 'Ram', 'Radhe'];
 let number: number[] = [];
 number.push(8);
 number;
+
+type devType = string;
+
+const newDev: devType = 'Krishna';
+
+// union type
+const oldDev: string | boolean = false;
+
+const literalType: 'krishna' | 'ram' = 'ram';
+
+console.log(literalType);
+
+enum objProp {
+	key1 = '5',
+	key2 = '10',
+}
+
+interface dev {
+	javascript: boolean;
+	'tech stack': string;
+	experience: number;
+}
+
+const dev2: dev = {
+	javascript: true,
+	'tech stack': 'MeRN',
+	experience: 5,
+};
