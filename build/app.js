@@ -40,5 +40,4 @@ const dev2 = {
     'tech stack': 'MeRN',
     experience: 5,
 };
-
 export {};
