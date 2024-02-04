@@ -1,5 +1,5 @@
 {
-	"include": ["./src/**/*.ts"],
+	"include": ["./src/**/*.ts", "src/enums.js"],
 	"compilerOptions": {
 		"rootDir": "./src",
 		"outDir": "./build",

@@ -42,3 +42,30 @@ after installing lint to check the lint errors
 `npx tslint --project .`
 
 `tsc`
+
+In TypeScript object types, the comma (,) and semicolon (;) separators between properties are interchangeable. All of these spellings denote the same type:
+
+let objectType : {
+prop1: string;
+prop2: number,
+prop3:boolean;
+}
+
+let person1: {firstName: string, age: number};
+let person1: {firstName: string; age: number};
+let person1: {firstName: string; age: number;};
+
+// A variable `person` with both a type annotation and an initializer
+let person: {
+firstName: string;
+age: number;
+} = {
+firstName: "Franz",
+age: 23,
+};
+
+
+
+
+Object Types Are Not Exact
+
